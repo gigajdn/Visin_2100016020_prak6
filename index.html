@@ -72,7 +72,7 @@
 
     function getSpreadsheetData() {
         var spreadsheetId = '1n567Ot120JanaCCAI0OWwUJLS7PVQLQ1';
-        var range = 'UTS Visualisasi Informasi!A1:B10';
+        var range = '1!A1:B10';
 
         var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/' + spreadsheetId + '/gviz/tq?gid=0&range=' + range);
         query.send(handleQueryResponse);
